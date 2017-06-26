@@ -2,7 +2,7 @@
 
 /**
 
- Interactive Keyboard - Vesion : Pre-Alfa 1.00 ::: Crerated by Constantinos < tinoC23 /> Constantinou @ 06/2017 
+ Interactive Keyboard - Vesion : Alfa 1.11 ::: Crerated by Constantinos < tinoC23 /> Constantinou @ 06/2017 
 
 */
 
@@ -810,7 +810,7 @@ void JButtonsGenerator()
 				
 			//
 				
-	EXIT=new JLabel("exit game");
+	EXIT=new JLabel("exit");
 	  EXIT.setBackground(Color.WHITE);
 	   EXIT.setForeground(Color.BLACK);
 	 EXIT.setEnabled(true);
@@ -894,8 +894,7 @@ void JButtonsGenerator()
       // Area for JTextArea and the JScrollPane
       //
       
-      				//=========================================================================================
-				// calculator screen implementation .... 
+      	
       
       // check the pc keyboard -> caps lick button probability ....... 
 		
@@ -910,8 +909,6 @@ void JButtonsGenerator()
                TA.setWrapStyleWord(false);
 	       TA.setCaretPosition(TA.getDocument().getLength());
 		TA.setFont(new Font("Serif",Font.PLAIN,12));
-		TA.setWrapStyleWord(true);
-               TA.setLineWrap(true);  
 		TA.addKeyListener(new KeyListener()
 			 {
 				 
