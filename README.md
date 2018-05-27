@@ -1,4 +1,6 @@
-# Interactive_Keyboard_Version_Alpha_1.11
+
+# Interactive_Keyboard_Version_1.00
+
 A G.U.I. based interactive keyboard, created in the Java programming language.
 
 The Interactive Keyboard Version Alpha 1.11 features the following :
